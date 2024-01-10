@@ -17,6 +17,12 @@ Using `ls` with a directory as an argument outputs all directories and files in 
 
 ![Image](ss5.png)
 
-Using 'ls' with a file as an argument throws an error.
+Using 'ls' with a file will just output the file name.
 
 ![Image](ss6.png)
+
+Using 'cat' with no arguments won't ouput anything, but prompt the user for an input. If the user inputs a string, it will output the same string back to the user.
+
+![Image](ss7.png)
+
+Using 'cat' with 
