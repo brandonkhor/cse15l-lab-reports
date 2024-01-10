@@ -13,7 +13,7 @@ Using `cd` with a file as an argument resulted in an error, for it is not a dire
 
 ![Image](ss3.png)
 
-## 'ls' section
+## `ls` section
 
 Using `ls` with no arguments outputs all directories and files in the current directory. In this case, all directories and files in the directory "lecture1" was outputted. Note that directories are in blue letters while files are in black.
 
