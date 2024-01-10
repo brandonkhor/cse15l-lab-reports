@@ -1,3 +1,5 @@
+#Lab Report 1
+
 Using `cd` with no arguments did nothing
 
 ![Image](ss1.png)
@@ -21,8 +23,14 @@ Using 'ls' with a file will just output the file name.
 
 ![Image](ss6.png)
 
-Using 'cat' with no arguments won't ouput anything, but prompt the user for an input. If the user inputs a string, it will output the same string back to the user.
+Using 'cat' with no arguments won't ouput anything, but prompt the user for an input. If the user inputs a string, it will output the same string back to the user. Note that no error is outputted and 'cat' can be exited using Ctrl + D.
 
 ![Image](ss7.png)
 
-Using 'cat' with 
+Using 'cat' with a directory as an argument will produce an error, for it is a directory and not a file. Since 'cat' prints the contents of a file, it will not work with a directory.
+
+![Image](ss8.png)
+
+Using 'cat' with a file as an argument prints the contents of the file
+
+![Image](ss9.png)
