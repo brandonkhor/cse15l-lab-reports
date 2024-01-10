@@ -25,13 +25,19 @@ Using `ls` with no arguments outputs all directories and files in the current di
 
 ![Image](ss4.png)
 
+---
+
 Using `ls` with a directory as an argument outputs all directories and files in the argument (which is a directory). In this cases, all files in the "messages" directory were outputted.
 
 ![Image](ss5.png)
 
+---
+
 Using 'ls' with a file will just output the file name.
 
 ![Image](ss6.png)
+
+---
 
 ## `cat` section
 
@@ -39,10 +45,16 @@ Using 'cat' with no arguments won't ouput anything, but prompt the user for an i
 
 ![Image](ss7.png)
 
+---
+
 Using 'cat' with a directory as an argument will produce an error, for it is a directory and not a file. Since 'cat' prints the contents of a file, it will not work with a directory.
 
 ![Image](ss8.png)
 
+---
+
 Using 'cat' with a file as an argument prints the contents of the file
 
 ![Image](ss9.png)
+
+---
