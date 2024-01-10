@@ -16,3 +16,7 @@ Using `ls` with no arguments outputs all directories and files in the current di
 Using `ls` with a directory as an argument outputs all directories and files in the argument (which is a directory). In this cases, all files in the "messages" directory were outputted.
 
 ![Image](ss5.png)
+
+Using 'ls' with a file as an argument throws an error.
+
+![Image](ss6.png)
