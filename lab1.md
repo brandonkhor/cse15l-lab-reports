@@ -1,6 +1,6 @@
 # Lab Report 1
 
-## cd section
+## `cd` section
 
 Using `cd` with no arguments did nothing
 
@@ -26,6 +26,8 @@ Using `ls` with a directory as an argument outputs all directories and files in 
 Using 'ls' with a file will just output the file name.
 
 ![Image](ss6.png)
+
+## `cat` section
 
 Using 'cat' with no arguments won't ouput anything, but prompt the user for an input. If the user inputs a string, it will output the same string back to the user. Note that no error is outputted and 'cat' can be exited using Ctrl + D.
 
