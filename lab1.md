@@ -1,4 +1,6 @@
-#Lab Report 1
+# Lab Report 1
+
+## 'cd' section
 
 Using `cd` with no arguments did nothing
 
