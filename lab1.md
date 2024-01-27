@@ -2,9 +2,13 @@
 
 ## `cd` section
 
-Using `cd` with no arguments did nothing
+Using `cd` with no arguments did nothing when in the `/home` directory
 
 ![Image](ss1.png)
+
+Working Directory: '/home'
+
+However, when using `cd` with no arguments in the `/home/lecture1/messages`, it brings the user back to the `/home` directory
 
 ---
 
