@@ -25,7 +25,7 @@ Working directory: `/home`
 
 Using `cd` with a file as an argument resulted in an error, for it is not a directory. In this case, since `Hello.java` is not a directory and is a file, it throws an error at us
 
-![Image](ss3.png)\
+![Image](ss3.png)
 
 Working directory: `/home/lecture1`
 
