@@ -49,7 +49,7 @@ Working directory: `/home/lecture1`
 
 ---
 
-Using 'ls' with a file will just output the file name.
+Using `ls` with a file will just output the file name.
 
 ![Image](ss6.png)
 
