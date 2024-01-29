@@ -62,8 +62,15 @@ For the `main` method in the `ChatServer` class, its parameter is `String[] args
 
 ## `ssh` Key Examples
 
+![Image](ls.png)
+
 Absolute path of private key: `/Users/brandonkhor/.ssh/id_rsa`
+
 Absolute path of public key: `/Users/brandonkhor/.ssh/id_rsa.pub`
+
+Example of terminal interaction without being asked for password:
+
+![Image](nopword.png)
 
 
 
