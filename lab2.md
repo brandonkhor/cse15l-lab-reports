@@ -62,7 +62,8 @@ For the `main` method in the `ChatServer` class, its parameter is `String[] args
 
 ## `ssh` Key Examples
 
-
+Absolute path of private key: `/Users/brandonkhor/.ssh/id_rsa`
+Absolute path of public key: `/Users/brandonkhor/.ssh/id_rsa.pub`
 
 
 
