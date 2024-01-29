@@ -53,12 +53,18 @@ class ChatServer {
 
 After entering the URL, in the `Handler` class in `ChatServer.java`, 
 
-## `ssh` Key Examples
-
-
-
 For the `main` method in the `ChatServer` class, its parameter is `String[] args`, which takes in arguments from the command line. The first argument is stored into `int port`. 
 
 
 ![Image](photo2.png)
+
+---
+
+## `ssh` Key Examples
+
+
+
+
+
+
 
