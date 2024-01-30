@@ -51,9 +51,12 @@ class ChatServer {
 
 ![Image](photo1.png)
 
-After entering the URL, in the `Handler` class in `ChatServer.java`, 
+After entering the URL containing `/add-message`, the method `handleRequest` in the `Handler` class is called.
 
-For the `main` method in the `ChatServer` class, its parameter is `String[] args`, which takes in arguments from the command line. The first argument is stored into `int port`. 
+The only argument passed to this method is the URL. Some fields that I created were `String entries`, which stores all messages added,
+`String[] parameters`, which ensures that the URL format is correct, and `String[] queryParts`, which splits up the message and the user.
+
+The values of `String[] parameters` and `String[] queryParts` changes for each new message. For this specific request, 
 
 
 ![Image](photo2.png)
