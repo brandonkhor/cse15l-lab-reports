@@ -53,13 +53,18 @@ class ChatServer {
 
 After entering the URL containing `/add-message`, the method `handleRequest` in the `Handler` class is called.
 
-The only argument passed to this method is the URL. Some fields that I created were `String entries`, which stores all messages added,
-`String[] parameters`, which ensures that the URL format is correct, and `String[] queryParts`, which splits up the message and the user.
+The only argument passed to this method is the URL. Some fields that I created were `String entries`, which stores all messages added, `String[] parameters`, which ensures that the URL format is correct, and `String[] queryParts`, which splits up the message and the user.
 
-The values of `String[] parameters` and `String[] queryParts` changes for each new message. For this specific request, 
+The values of `String[] parameters` and `String[] queryParts` changes entirely for each new message. For this specific request, `parameters[0]` is `"s"`, `parameters[1]` is `"Hello%20CSE15L&user"`, and `parameters[2]` is `"brandonkhor"`. `queryParts[0]` `"Hello CSE15L"` and `queryParts[1]` is `"user"`. The formatted message is added onto `String entries`. For this specific request, "brandonkhor: Hello CSE15L" and a new line is added onto `String entries`, which is an empty String at the moment.
 
 
 ![Image](photo2.png)
+
+After entering the URL containing `/add-message`, the method `handleRequest` in the `Handler` class is called.
+
+The only argument passed to this method is the URL. Some fields that I created were `String entries`, which stores all messages added, `String[] parameters`, which ensures that the URL format is correct, and `String[] queryParts`, which splits up the message and the user.
+
+The values of `String[] parameters` and `String[] queryParts` changes entirely for each new message. For this specific request, `parameters[0]` is `"s"`, `parameters[1]` is `"Amazing!&user"`, and `parameters[2]` is `"professor"`. `queryParts[0]` `"Amazing!"` and `queryParts[1]` is `"user"`. The formatted message is added onto `String entries`. For this specific request, "professor: Amazing!" and a new line is added onto `String entries`, which is `"brandonkhor: Hello CSE15L"` at the moment.
 
 ---
 
@@ -74,6 +79,8 @@ Absolute path of public key: `/Users/brandonkhor/.ssh/id_rsa.pub`
 Example of terminal interaction without being asked for password:
 
 ![Image](nopword.png)
+
+## What I've learned
 
 
 
