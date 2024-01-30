@@ -89,7 +89,4 @@ Example of terminal interaction without being asked for password:
 
 In week 2, I learned how to connect to a server and allow communication between other computers using `ssh`. We went in-depth on the specific parts of a URL, such as ports and queries, and how to run a server both locally and on a remote computer. Finally, I learned the usage of `curl`, which is like `cat` for URLs.
 
-In week 3, I learned about the process of setting up `ssh` keys for easy access. I learned about the usage of `mkdir` and `scp`, which makes a new directory and 
-
-
-
+In week 3, I learned about the process of setting up `ssh` keys for easy access. I learned about the usage of `mkdir` and `scp`, which makes a new directory and securely transfers data between computers, respectively. 
