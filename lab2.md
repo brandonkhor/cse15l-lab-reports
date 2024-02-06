@@ -79,9 +79,11 @@ The values of `String[] parameters` and `String[] queryParts` changes entirely f
 
 Absolute path of private key: `/Users/brandonkhor/.ssh/id_rsa`
 
+---
 
+![Image](public.png)
 
-Absolute path of public key: `/Users/brandonkhor/.ssh/id_rsa.pub`
+Absolute path of public key: `/home/linux/ieng6/oce/90/bkhor/.ssh/authorized_keys`
 
 Example of terminal interaction without being asked for password:
 
