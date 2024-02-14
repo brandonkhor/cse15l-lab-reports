@@ -60,4 +60,6 @@ Source: [Link](https://www.redhat.com/sysadmin/linux-find-command)
 
 `find -maxdepth` limits how deep into a directory the `find` command will go.
 
+![Image](maxdepth.png)
+
 
