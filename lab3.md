@@ -68,4 +68,9 @@ When `find technical -maxdepth 3 -iname  "*com*"` is called, it shows all files 
 
 `find ./test -not -name` is used to list the files that do not contain a given argument. This can be used to exclude specific file names or different file types.
 
+![Image](no1.png)
+
+In this example, every file that doesn't contain ".txt" is outputted. Since every file in `technical` is a .tx.t file, it only lists all the directories in `technical`. This would be useful for excluding a common file type, like if you're searching through your Downloads but don't want to list all your ".jpg" files.
+
+
 
