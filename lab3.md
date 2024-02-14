@@ -64,6 +64,8 @@ Source: [Link](https://www.redhat.com/sysadmin/linux-find-command)
 
 When `find technical -maxdepth 3 -iname  "*com*"` is called, it shows all files that contains the substring "com" with a maximum of 3 directories deep into `technical`. When `find technical -maxdepth 2 -iname  "*com*"` is called, it only shows 1 file, for it is the only file that contains the substring "com" with a maximum of 2 directories deep into `technical`. This command is useful when you want to search just the current directory or limit how deep you can go.
 
+Source: [Link](https://www.binarytides.com/linux-find-command-examples/)
+
 ---
 
 `find ./test -not -name` is used to list the files that do not contain a given argument. This can be used to exclude specific file names or different file types.
@@ -72,5 +74,15 @@ When `find technical -maxdepth 3 -iname  "*com*"` is called, it shows all files 
 
 In this example, every file that doesn't contain ".txt" is outputted. Since every file in `technical` is a .tx.t file, it only lists all the directories in `technical`. This would be useful for excluding a common file type, like if you're searching through your Downloads but don't want to list all your ".jpg" files.
 
+Source: [Link](https://www.binarytides.com/linux-find-command-examples/)
 
+![Image](no2.png)
+
+In this example, every file in `technical/911report` that doesn't contain "chapter" in it is outputted. This would be useful for excluding a common file name, like if you're searching through your Desktop but don't want to list all your screenshots.
+
+Source: [Link](https://www.binarytides.com/linux-find-command-examples/)
+
+---
+
+Using `-o` in find acts as an OR operator, allowing the user to search under multiple arguments
 
