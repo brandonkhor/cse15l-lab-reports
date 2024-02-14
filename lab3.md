@@ -62,4 +62,4 @@ Source: [Link](https://www.redhat.com/sysadmin/linux-find-command)
 
 ![Image](maxdepth.png)
 
-
+When `find technical -maxdepth 3 -iname  "*com*"` is called, it shows all files that contains the substring "com" with a maximum of 3 directories deep into `technical`. When `find technical -maxdepth 2 -iname  "*com*"` is called, it only shows 1 file, for it is the only file that contains the substring "com" with a maximum of 2 directories deep into `technical`. This command is useful 
