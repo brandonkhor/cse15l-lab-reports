@@ -54,7 +54,7 @@ Source: [Link](https://www.redhat.com/sysadmin/linux-find-command)
 
 ![Image](iname2.png)
 
-Another useful feature is the use of `"*(specified substring)*"`, which outputs everything that contains the specified substring. Pairing this with `find -iname` allows us to find all files that contain the substring, in this case "com", while remaining case-insensitive. Using `find -iname` with the wildcard will be useful when the user is searching for a file name with a keyword without worrying about capitilization/
+Another useful feature is the use of `"*(specified substring)*"`, which outputs everything that contains the specified substring. Pairing this with `find -iname` allows us to find all files that contain the substring, in this case "com", while remaining case-insensitive. Using `find -iname` with the wildcard will be useful when the user is searching for a file name with a keyword without worrying about capitilization.
 
 Source: [Link](https://www.redhat.com/sysadmin/linux-find-command)
 
