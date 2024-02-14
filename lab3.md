@@ -44,6 +44,8 @@ The command that I choose is `find`
 
 `find -iname` is similar to using `find -name`, but it is case-insensitive. 
 
-![Image](Screen Shot 2024-02-13 at 6.30.49 PM.png)
+![Image](iname3.png)
 
 As we can see, even though alcohol_problems isn't the same as Alcohol_Problems in terms of capitilization, `find -name` is case-insensitive, so it still outputs the file path.
+
+
