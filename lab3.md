@@ -46,8 +46,18 @@ The command that I choose is `find`
 
 ![Image](iname1.png)
 
-As we can see, even though alcohol_problems isn't the same as Alcohol_Problems in terms of capitilization, but `find -iname` is case-insensitive, so it still outputs the file path.
+As we can see, even though alcohol_problems isn't the same as Alcohol_Problems in terms of capitilization, but `find -iname` is case-insensitive, so it still outputs the file path. Using `find -iname` will be useful when the user knows a file name, but not the capitilization.
+
+Source: [Link](https://www.redhat.com/sysadmin/linux-find-command)
 
 ![Image](iname2.png)
 
-Another useful feature is the use of `"*(specified substring)*"`, which outputs everything that contains the specified substring. Pairing this with `find -iname` allows us to find all files that contain the substring, in this case "com", while remaining case-insensitive.
+Another useful feature is the use of `"*(specified substring)*"`, which outputs everything that contains the specified substring. Pairing this with `find -iname` allows us to find all files that contain the substring, in this case "com", while remaining case-insensitive. Using `find -iname` with the wildcard will be useful when the user is searching for a file name with a keyword without worrying about capitilization/
+
+Source: [Link](https://www.redhat.com/sysadmin/linux-find-command)
+
+---
+
+`find -maxdepth` limits how deep into a directory the `find` command will go.
+
+
