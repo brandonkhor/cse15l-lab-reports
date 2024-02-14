@@ -29,3 +29,18 @@ public void testFilter2() {
 ```
 ### Symptom
 ![Image](symptom.png)
+### Bug
+The bug in the code is this line in the `filter` method in the `ListExamples` class:
+`result.add(0, s);`
+
+The issue is that elements that pass the filter will be prepended to the list because of the "0", messing up the original order.
+
+This can be fixed by changing it to this:
+`result.add(s);`
+
+## Researching Commands
+
+The command that I choose is `find`
+
+`find -iname` is similar to using `find -name`, but it is case-insensitive. 
+
