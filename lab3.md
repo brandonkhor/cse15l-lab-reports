@@ -42,7 +42,7 @@ By removing the "0", since there is no index argument, the `add` method will def
 
 ## Researching Commands
 
-The command that I choose is `find`
+### The command that I choose is `find`
 
 `find -iname` is similar to using `find -name`, but it is case-insensitive. 
 
