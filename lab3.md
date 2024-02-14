@@ -38,6 +38,8 @@ The issue is that elements that pass the filter will be prepended to the list be
 This can be fixed by changing it to this:
 `result.add(s);`
 
+By removing the "0", since there is no index argument, the `add` method will default to appending `s` instead of prepending it, maintaining the order of the original list.
+
 ## Researching Commands
 
 The command that I choose is `find`
@@ -88,7 +90,12 @@ Using `-o` in find acts as an OR operator, allowing the user to search under mul
 
 ![Image](o1.png)
 
-In this example, we use `-o` to separate `-iname "*com*"` and `-iname "*pro*"`, allowing us to search `technical` for files/directories that contain the substring "com" OR "pro"
+In this example, we use `-o` to separate `-iname "*com*"` and `-iname "*pro*"`, allowing us to search `technical` for files/directories that contain the substring "com" OR "pro". This is just as useful as using `find`, for you can search for multiple specific arguments rather than just one.
 
+Source: [Link](https://linuxhandbook.com/find-command-examples/)
 
+![Image](o2.png)
 
+Another example of searching for two arguments, but in the same directory this time. This is just as useful as using `find`, for you can search for multiple specific arguments rather than just one.
+
+Source: [Link](https://linuxhandbook.com/find-command-examples/)
