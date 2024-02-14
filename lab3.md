@@ -84,5 +84,11 @@ Source: [Link](https://www.binarytides.com/linux-find-command-examples/)
 
 ---
 
-Using `-o` in find acts as an OR operator, allowing the user to search under multiple arguments
+Using `-o` in find acts as an OR operator, allowing the user to search under multiple arguments.
+
+![Image](o1.png)
+
+In this example, we use `-o` to separate `-iname "*com*"` and `-iname "*pro*"`, allowing us to search `technical` for files/directories that contain the substring "com" OR "pro"
+
+
 
