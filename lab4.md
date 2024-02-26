@@ -18,4 +18,6 @@ Keys pressed: `<Ctrl+R> git c <enter>` The `git clone git@github.com:brandonkhor
 
 Keys pressed: `<Ctrl+R> c <enter>`, `<Ctrl+R> b <enter>` I first changed the directory to lab7 using the command `cd lab7`, which I accessed using <Ctrl+R> and typed `c`, autofilling to `cd lab7`. Then I used `bash test.sh` to run the test cases, accessing it the same way as the previous one, but typing `b` instead to autofill to `bash test.sh`.
 
+## Step 7
 
+Keys pressed: `<Ctrl+R> v <enter>`, G 6k 11l r2 <ESC> :wq <enter>` I first used `<Ctrl+R>` and typed `v`, autofilling to `vim ListExamples.java`. Once viewing the file, I pressed `G` to start at the bottom of the page. I then pressed `6k`, which goes six lines up. Pressing `11l` will shift my cursor 11 characters to the left, landing it on top of the "1" in "index1". Then, I typed `r2` to replace the "1" with a "2". Finally, I pressed `<ESC>` and `:wq` to save and quit `vim`.
