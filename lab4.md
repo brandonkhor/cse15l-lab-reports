@@ -34,7 +34,7 @@ I first used `<Ctrl+R>` and typed `v`, autofilling to `vim ListExamples.java`.
 
 ![Image](before.png)
 
-Once viewing the file, I pressed `G` to start at the bottom of the page. I then pressed `6k`, which goes six lines up. Pressing `11l` will shift my cursor 11 characters to the left, landing it on top of the "1" in "index1". 
+Once viewing the file, I pressed `G` to start at the bottom of the page. I then pressed `6k`, which goes six lines up. Pressing `11l` will shift my cursor 11 characters to the right, landing it on top of the "1" in "index1". 
 
 ![Image](after.png)
 
