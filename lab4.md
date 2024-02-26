@@ -20,4 +20,4 @@ Keys pressed: `<Ctrl+R> c <enter>`, `<Ctrl+R> b <enter>` I first changed the dir
 
 ## Step 7
 
-Keys pressed: `<Ctrl+R> v <enter>`, G 6k 11l r2 <ESC> :wq <enter>` I first used `<Ctrl+R>` and typed `v`, autofilling to `vim ListExamples.java`. Once viewing the file, I pressed `G` to start at the bottom of the page. I then pressed `6k`, which goes six lines up. Pressing `11l` will shift my cursor 11 characters to the left, landing it on top of the "1" in "index1". Then, I typed `r2` to replace the "1" with a "2". Finally, I pressed `<ESC>` and `:wq` to save and quit `vim`.
+Keys pressed: `<Ctrl+R> v <enter>`, `G 6k 11l r2 <ESC> :wq <enter>` I first used `<Ctrl+R>` and typed `v`, autofilling to `vim ListExamples.java`. Once viewing the file, I pressed `G` to start at the bottom of the page. I then pressed `6k`, which goes six lines up. Pressing `11l` will shift my cursor 11 characters to the left, landing it on top of the "1" in "index1". Then, I typed `r2` to replace the "1" with a "2". Finally, I pressed `<ESC>` and `:wq` to save and quit `vim`.
