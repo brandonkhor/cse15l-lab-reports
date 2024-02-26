@@ -6,7 +6,7 @@
 
 Keys pressed: `<up><enter>` The `ssh bkhor@ieng6-202.ucsd.edu` command was 1 up in the search history, so I used the up arrow to access it. This step accesses the `ieng6` server.
 
---
+---
 
 ## Step 5
 
