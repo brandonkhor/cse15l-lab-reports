@@ -4,7 +4,7 @@
 
 ![Image](step4.png)
 
-Keys pressed: `<up><enter>` The `ssh bkhor@ieng6-202.ucsd.edu` command was 1 up in the search history, so I used the up arrow to access it.
+Keys pressed: `<up><enter>` The `ssh bkhor@ieng6-202.ucsd.edu` command was 1 up in the search history, so I used the up arrow to access it. This step accesses the `ieng6` server.
 
 --
 
@@ -12,7 +12,7 @@ Keys pressed: `<up><enter>` The `ssh bkhor@ieng6-202.ucsd.edu` command was 1 up 
 
 ![Image](step5.png)
 
-Keys pressed: `<Ctrl+R> git c <enter>` The `git clone git@github.com:brandonkhor/lab7.git` command was the command that shows up when I pressed <Ctrl+R> and typed `git c`, autofilling to `git clone git@github.com:brandonkhor/lab7.git`.
+Keys pressed: `<Ctrl+R> git c <enter>` The `git clone git@github.com:brandonkhor/lab7.git` command was the command that shows up when I pressed `<Ctrl+R>` and typed `git c`, autofilling to `git clone git@github.com:brandonkhor/lab7.git`. This step clones the repository that is used in the next steps.
 
 ---
 
@@ -20,7 +20,7 @@ Keys pressed: `<Ctrl+R> git c <enter>` The `git clone git@github.com:brandonkhor
 
 ![Image](step6.png)
 
-Keys pressed: `<Ctrl+R> c <enter>`, `<Ctrl+R> b <enter>` I first changed the directory to lab7 using the command `cd lab7`, which I accessed using <Ctrl+R> and typed `c`, autofilling to `cd lab7`. Then I used `bash test.sh` to run the test cases, accessing it the same way as the previous one, but typing `b` instead to autofill to `bash test.sh`.
+Keys pressed: `<Ctrl+R> c <enter>`, `<Ctrl+R> b <enter>` I first changed the directory to lab7 using the command `cd lab7`, which I accessed using `<Ctrl+R>` and typed `c`, autofilling to `cd lab7`. Then I used `bash test.sh` to run the test cases, accessing it the same way as the previous one, but typing `b` instead to autofill to `bash test.sh`. This step puts us in the proper directory and runs the tests to show that there is a bug in the code.
 
 ---
 
@@ -38,7 +38,7 @@ Once viewing the file, I pressed `G` to start at the bottom of the page. I then 
 
 ![Image](after.png)
 
-Then, I typed `r2` to replace the "1" with a "2". Finally, I pressed `<ESC>` and `:wq` to save and quit `vim`.
+Then, I typed `r2` to replace the "1" with a "2". Finally, I pressed `<ESC>` and `:wq` to save and quit `vim`. This step edits `ListExamples.java` and fixes the bug.
 
 ---
 
@@ -46,7 +46,7 @@ Then, I typed `r2` to replace the "1" with a "2". Finally, I pressed `<ESC>` and
 
 ![Image](step8.png)
 
-Keys pressed: `<Ctrl+R> b <enter>` I used `bash test.sh` to run the test cases, accessing it the same way as I did in Step 6, but now all the tests pass.
+Keys pressed: `<Ctrl+R> b <enter>` I used `bash test.sh` to run the test cases, accessing it the same way as I did in Step 6, but now all the tests pass. This step runs the tests to show that the tests now run correctly.
 
 ---
 
@@ -54,4 +54,4 @@ Keys pressed: `<Ctrl+R> b <enter>` I used `bash test.sh` to run the test cases, 
 
 ![Image](git.png)
 
-Keys pressed: `<Ctrl+R> git a <enter>`,  `<Ctrl+R> git co <enter>`,  `<Ctrl+R> git p <enter>` The `git add .` command is the command that pops up when using `<Ctrl+D>` and typing `git a`. The `git commit -m "hi"` command is the command that pops up when using `<Ctrl+D>` and typing `git co`. Finally, the `git push` command is the command that pops up when using `<Ctrl+D>` and typing `git p`.
+Keys pressed: `<Ctrl+R> git a <enter>`,  `<Ctrl+R> git co <enter>`,  `<Ctrl+R> git p <enter>` The `git add .` command is the command that pops up when using `<Ctrl+D>` and typing `git a`. The `git commit -m "hi"` command is the command that pops up when using `<Ctrl+D>` and typing `git co`. Finally, the `git push` command is the command that pops up when using `<Ctrl+D>` and typing `git p`. This command updates the code in the remote repository.
