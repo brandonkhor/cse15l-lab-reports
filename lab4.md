@@ -12,7 +12,7 @@ Keys pressed: `<up><enter>` The `ssh bkhor@ieng6-202.ucsd.edu` command was 1 up 
 
 ![Image](step5.png)
 
-Keys pressed: `<Ctrl+R> git c <enter>` The `git clone git@github.com:brandonkhor/lab7.git` command was the command that show up when I pressed <Ctrl+R> and typed `git c`, autofilling to `git clone git@github.com:brandonkhor/lab7.git`.
+Keys pressed: `<Ctrl+R> git c <enter>` The `git clone git@github.com:brandonkhor/lab7.git` command was the command that shows up when I pressed <Ctrl+R> and typed `git c`, autofilling to `git clone git@github.com:brandonkhor/lab7.git`.
 
 ---
 
@@ -44,6 +44,14 @@ Then, I typed `r2` to replace the "1" with a "2". Finally, I pressed `<ESC>` and
 
 ## Step 8
 
-
+![Image](step8.png)
 
 Keys pressed: `<Ctrl+R> b <enter>` I used `bash test.sh` to run the test cases, accessing it the same way as I did in Step 6, but now all the tests pass.
+
+---
+
+## Step 9
+
+
+
+Keys pressed: `<Ctrl+R> git a <enter>`,  `<Ctrl+R> git co <enter>`,  `<Ctrl+R> git p <enter>` The `git add .` command is the command that pops up when using `<Ctrl+D>` and typing `git a`. The `git commit -m "hi"` command is the command that pops up when using `<Ctrl+D>` and typing `git co`. Finally, the `git push` command is the command that pops up when using `<Ctrl+D>` and typing `git p`.
