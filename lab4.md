@@ -52,6 +52,6 @@ Keys pressed: `<Ctrl+R> b <enter>` I used `bash test.sh` to run the test cases, 
 
 ## Step 9
 
-
+![Image](git.png)
 
 Keys pressed: `<Ctrl+R> git a <enter>`,  `<Ctrl+R> git co <enter>`,  `<Ctrl+R> git p <enter>` The `git add .` command is the command that pops up when using `<Ctrl+D>` and typing `git a`. The `git commit -m "hi"` command is the command that pops up when using `<Ctrl+D>` and typing `git co`. Finally, the `git push` command is the command that pops up when using `<Ctrl+D>` and typing `git p`.
