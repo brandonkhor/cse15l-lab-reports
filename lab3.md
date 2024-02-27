@@ -46,7 +46,7 @@ static List<String> filter(List<String> list, StringChecker sc) {
     List<String> result = new ArrayList<>();
     for(String s: list) {
       if(sc.checkString(s)) {
-        result.add(0, s);
+        result.add(0, s); //The bug is on this line!
       }
     }
     return result;
@@ -59,7 +59,7 @@ static List<String> filter(List<String> list, StringChecker sc) {
     List<String> result = new ArrayList<>();
     for(String s: list) {
       if(sc.checkString(s)) {
-        result.add(s); //This line is changed!
+        result.add(s); //This line is changed! Bug fixed!
       }
     }
     return result;
