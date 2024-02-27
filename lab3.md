@@ -40,6 +40,10 @@ This can be fixed by changing it to this:
 
 By removing the "0", since there is no index argument, the `add` method will default to appending `s` instead of prepending it, maintaining the order of the original list.
 
+Before: 
+
+After:
+
 ## Researching Commands
 
 ### The command that I choose is `find`
@@ -50,13 +54,13 @@ By removing the "0", since there is no index argument, the `add` method will def
 
 As we can see, even though alcohol_problems isn't the same as Alcohol_Problems in terms of capitilization, but `find -iname` is case-insensitive, so it still outputs the file path. Using `find -iname` will be useful when the user knows a file name, but not the capitilization.
 
-Source: [Link](https://www.redhat.com/sysadmin/linux-find-command)
+Source: [https://www.redhat.com/sysadmin/linux-find-command](https://www.redhat.com/sysadmin/linux-find-command)
 
 ![Image](iname2.png)
 
 Another useful feature is the use of `"*(specified substring)*"`, which outputs everything that contains the specified substring. Pairing this with `find -iname` allows us to find all files that contain the substring, in this case "com", while remaining case-insensitive. Using `find -iname` with the wildcard will be useful when the user is searching for a file name with a keyword without worrying about capitilization.
 
-Source: [Link](https://www.redhat.com/sysadmin/linux-find-command)
+Source: [https://www.redhat.com/sysadmin/linux-find-command](https://www.redhat.com/sysadmin/linux-find-command)
 
 ---
 
@@ -66,7 +70,7 @@ Source: [Link](https://www.redhat.com/sysadmin/linux-find-command)
 
 When `find technical -maxdepth 3 -iname  "*com*"` is called, it shows all files that contains the substring "com" with a maximum of 3 directories deep into `technical`. When `find technical -maxdepth 2 -iname  "*com*"` is called, it only shows 1 file, for it is the only file that contains the substring "com" with a maximum of 2 directories deep into `technical`. This command is useful when you want to search just the current directory or limit how deep you can go.
 
-Source: [Link](https://www.binarytides.com/linux-find-command-examples/)
+Source: [https://www.binarytides.com/linux-find-command-examples/](https://www.binarytides.com/linux-find-command-examples/)
 
 ---
 
@@ -76,13 +80,13 @@ Source: [Link](https://www.binarytides.com/linux-find-command-examples/)
 
 In this example, every file that doesn't contain ".txt" is outputted. Since every file in `technical` is a .tx.t file, it only lists all the directories in `technical`. This would be useful for excluding a common file type, like if you're searching through your Downloads but don't want to list all your ".jpg" files.
 
-Source: [Link](https://www.binarytides.com/linux-find-command-examples/)
+Source: [https://www.binarytides.com/linux-find-command-examples/](https://www.binarytides.com/linux-find-command-examples/)
 
 ![Image](no2.png)
 
 In this example, every file in `technical/911report` that doesn't contain "chapter" in it is outputted. This would be useful for excluding a common file name, like if you're searching through your Desktop but don't want to list all your screenshots.
 
-Source: [Link](https://www.binarytides.com/linux-find-command-examples/)
+Source: [https://www.binarytides.com/linux-find-command-examples/](https://www.binarytides.com/linux-find-command-examples/)
 
 ---
 
@@ -92,7 +96,7 @@ Using `-o` in find acts as an OR operator, allowing the user to search under mul
 
 In this example, we use `-o` to separate `-iname "*com*"` and `-iname "*pro*"`, allowing us to search `technical` for files/directories that contain the substring "com" OR "pro". This is just as useful as using `find`, for you can search for multiple specific arguments rather than just one.
 
-Source: [Link](https://linuxhandbook.com/find-command-examples/)
+Source: [https://linuxhandbook.com/find-command-examples/](https://linuxhandbook.com/find-command-examples/)
 
 ![Image](o2.png)
 
