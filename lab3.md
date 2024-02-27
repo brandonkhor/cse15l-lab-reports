@@ -41,8 +41,30 @@ This can be fixed by changing it to this:
 By removing the "0", since there is no index argument, the `add` method will default to appending `s` instead of prepending it, maintaining the order of the original list.
 
 Before: 
+```
+static List<String> filter(List<String> list, StringChecker sc) {
+    List<String> result = new ArrayList<>();
+    for(String s: list) {
+      if(sc.checkString(s)) {
+        result.add(0, s);
+      }
+    }
+    return result;
+  }
+```
 
 After:
+```
+static List<String> filter(List<String> list, StringChecker sc) {
+    List<String> result = new ArrayList<>();
+    for(String s: list) {
+      if(sc.checkString(s)) {
+        result.add(s); //This line is changed!
+      }
+    }
+    return result;
+  }
+```
 
 ## Researching Commands
 
