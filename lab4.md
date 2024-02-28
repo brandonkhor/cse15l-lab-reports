@@ -26,7 +26,7 @@ Keys pressed: `<Ctrl+R> c <enter>`, `<Ctrl+R> b <enter>` I first changed the dir
 
 ## Step 7
 
-Keys pressed: `<Ctrl+R> v <enter>`, `G 6k 11l r2 <ESC> <Shift+;> wq <enter>` 
+Keys pressed: `<Ctrl+R> v <enter>`, `<Shift+g> 6k 11l r2 <ESC> <Shift+;> wq <enter>` 
 
 ![Image](vim.png)
 
@@ -34,7 +34,7 @@ I first used `<Ctrl+R>` and typed `v`, autofilling to `vim ListExamples.java`.
 
 ![Image](before.png)
 
-Once viewing the file, I pressed `G` to start at the bottom of the page. I then pressed `6k`, which goes six lines up. Pressing `11l` will shift my cursor 11 characters to the right, landing it on top of the "1" in "index1". 
+Once viewing the file, I pressed `<Shift+g>` to start at the bottom of the page. I then pressed `6k`, which goes six lines up. Pressing `11l` will shift my cursor 11 characters to the right, landing it on top of the "1" in "index1". 
 
 ![Image](after.png)
 
