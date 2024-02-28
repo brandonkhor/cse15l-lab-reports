@@ -26,7 +26,7 @@ Keys pressed: `<Ctrl+R> c <enter>`, `<Ctrl+R> b <enter>` I first changed the dir
 
 ## Step 7
 
-Keys pressed: `<Ctrl+R> v <enter>`, `G 6k 11l r2 <ESC> :wq <enter>` 
+Keys pressed: `<Ctrl+R> v <enter>`, `G 6k 11l r2 <ESC> <Shift+;> wq <enter>` 
 
 ![Image](vim.png)
 
@@ -38,7 +38,7 @@ Once viewing the file, I pressed `G` to start at the bottom of the page. I then 
 
 ![Image](after.png)
 
-Then, I typed `r2` to replace the "1" with a "2". Finally, I pressed `<ESC>` and `:wq` to save and quit `vim`. This step edits `ListExamples.java` and fixes the bug.
+Then, I typed `r2` to replace the "1" with a "2". Finally, I pressed `<ESC>` and `<Shift+;>wq` to save and quit `vim`. This step edits `ListExamples.java` and fixes the bug.
 
 ---
 
