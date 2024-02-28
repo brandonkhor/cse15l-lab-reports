@@ -124,4 +124,4 @@ Source: [https://linuxhandbook.com/find-command-examples/](https://linuxhandbook
 
 Another example of searching for two arguments, but in the same directory this time. This is just as useful as using `find`, for you can search for multiple specific arguments rather than just one.
 
-Source: [https://linuxhandbook.com/find-command-examples/]
+Source: [https://linuxhandbook.com/find-command-examples/](https://linuxhandbook.com/find-command-examples/)
