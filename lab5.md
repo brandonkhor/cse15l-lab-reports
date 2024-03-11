@@ -17,7 +17,7 @@ Hmm. Very interesting! So first, let's look back at our symptom. What do you not
 
 __Brandon Khor__
 
-Hmm, let me see... OH MY DAYS!!! IT'S PREPENDING INSTEAD OF APPENDING! That's why the order was so wack! If I go to line 15 and change `result(0, s)` to `result(s)` in the `filter` method, then the issue should be fixed! As for the `merge` method the program won't end if there is an infinite loop! And look here, there are 3 `while` loops in the `merge` method! Surely the bug must lie within those. And will you look at that! On line 43, `index2` isn't incremented at all, so the statement while loop will never stop! We can fix this by changing `index1` to `index2`. Alright, let's test the methods again!
+Hmm, let me see... OH MY DAYS!!! IT'S PREPENDING INSTEAD OF APPENDING! That's why the order was so wack! If I go to line 15 and change `result(0, s);` to `result(s);` in the `filter` method, then the issue should be fixed! As for the `merge` method the program won't end if there is an infinite loop! And look here, there are 3 `while` loops in the `merge` method! Surely the bug must lie within those. And will you look at that! On line 43, `index2` isn't incremented at all, so the statement while loop will never stop! We can fix this by changing `index1` to `index2`. Alright, let's test the methods again!
 
 ![Image](success.png)
 
@@ -29,4 +29,15 @@ The file structure is `/home/student/buggy` in the Skill Demo 4 workspace. The t
 
 This is the content in `/home/student/buggy/ListExamples.java` before the changes:
 
+![Image](bfr.png)
+
+The full command line I ran that caused the bug is `bash test.sh`, which runs the commands `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java` and `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore TestListExamples`
+
+The first bug was that the array was in reverse order. This is because elements were being prepended rather than appended in the `filter` method. To fix this, I edited line 15 and changed `result(0, s);` to `result(s);`.
+
+The second bug was that the program was timing out when calling the `merge` method. This is because a variable wasn't being incremented, resulting in an infinite `while` loop. To fix this, I edited line 43 to `index1 += 1;` to `index2 += 1;`. With the right variable being incremented, the loop can exit.
+
+## Part 2
+
+I really enjoyed the technicalities of using the command line to do everything. Personally, I find all the shortcuts and tricks in `vim` to be interesting. It has also gave me a new appreciation for UI. `jdb` was probably the most useful thing I learned and it helped me in my other coding assignments. Overall, I always looked forward to my labs, for the environment was friendly, productive, and fun. Also shout out to the best TA Andy :D. I will make sure that the lessons I've learned in this class and I will continue to use these core principles in the future.
 
